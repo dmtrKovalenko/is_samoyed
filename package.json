@@ -1,0 +1,36 @@
+{
+  "name": "is-samoyed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node --files src/index.ts",
+    "train": "ts-node scripts/train.ts",
+    "now-build": "tsc",
+    "now-start": "node build/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^0.2.2",
+    "@tensorflow/tfjs-node": "^0.2.3",
+    "@types/fs-extra": "^5.0.4",
+    "@types/jpeg-js": "^0.3.0",
+    "@types/ndarray": "^1.0.6",
+    "@types/node": "^10.12.19",
+    "@types/node-telegram-bot-api": "^0.30.4",
+    "@types/sharp": "^0.21.2",
+    "brain.js": "^1.6.1",
+    "dotenv": "^6.2.0",
+    "fs-extra": "^7.0.1",
+    "get-pixels": "^3.3.2",
+    "jpeg-js": "^0.3.4",
+    "ndarray": "^1.0.18",
+    "node-telegram-bot-api": "^0.30.0",
+    "sharp": "^0.21.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4"
+  }
+}
