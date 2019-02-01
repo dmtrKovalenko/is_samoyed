@@ -4,7 +4,7 @@ import { IMAGE_SIZE } from '../constants';
 
 let model: mobilenet.MobileNet | null = null;
 
-export async function loadModel(path: string) {
+export async function loadModel() {
   model = await mobilenet.load()
 }
 
