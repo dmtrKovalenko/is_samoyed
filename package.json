@@ -8,13 +8,23 @@
     "train": "ts-node scripts/train.ts",
     "now-build": "tsc",
     "now-start": "node build/src/index.js",
+    "deploy": "now --public --docker",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "now": {
+    "scale": {
+      "bru1": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  },
   "dependencies": {
     "@tensorflow-models/mobilenet": "^0.2.2",
+    "@tensorflow/tfjs": "^0.14.2",
     "@tensorflow/tfjs-node": "^0.2.3",
     "@types/fs-extra": "^5.0.4",
     "@types/jpeg-js": "^0.3.0",
