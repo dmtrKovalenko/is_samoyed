@@ -9,6 +9,6 @@
   AI powered telegram bot, determining is there a samoyed on the picture or not
 </div>
 
-## [Test me](t.me/is_samoed_bot).
+## [Test me](https://t.me/is_samoed_bot).
 Neural network powered with a help of [tensotflow.js](https://js.tensorflow.org/api/0.6.1/) and 
 [mobile net](https://js.tensorflow.org/tutorials/webcam-transfer-learning.html) model.
